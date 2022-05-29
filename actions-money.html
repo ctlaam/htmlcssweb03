@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <div class="m-header">
+        <div class="m-header-left">
+            <div class="sidebar"></div>
+            <div class="logo"></div>
+        </div>
+        <div class="m-header-right">
+            <div class="content-header-left">
+                <div class="toggle-header"></div>
+                <div id="cbxCompany" class="m-combobox" mcombobox>
+                    <p class="placeholder"> CÔNG TY CỔ PHẦN MISA</p>
+                    <div class="icon-combobox">
+                    </div>
+                    <div class="m-choice-combobox">
+                        <div value="0" class="m-choice">
+                            <i class="fa-solid fa-check icon-active"></i>Nam
+                        </div>
+                        <div value="1" class="m-choice">
+                            <i class="fa-solid fa-check icon-active"></i>Nữ
+                        </div>
+                        <div value="2" class="m-choice">
+                            <i class="fa-solid fa-check icon-active"></i>Khác
+                        </div>
+                    </div>
+                </div>
+                <div class="status-header">
+                    <div class="dot-status">
+
+                    </div>
+                    <div class="name-status">
+                        DC-01
+                    </div>
+                </div>
+            </div>
+            <div class="content-header-right">
+                <div class="box-excel">
+                    <div class="doawload-excel">
+
+                    </div>
+                </div>
+                <div class="header-search">
+                    <input class="input-search" placeholder="Nhập từ khóa tìm kiếm"></input>
+                    <div class="icon-search"></div>
+                </div>
+                <div class="full-icon-header">
+                    <div class="box-icon-header green">
+                        <div class="icon-header icon-1"></div>
+                    </div>
+                    <div class="box-icon-header">
+                        <div class="icon-header icon-2"></div>
+                    </div>
+                    <div class="box-icon-header">
+
+                        <div class="icon-header icon-3"></div>
+                    </div>
+                    <div class="box-icon-header">
+
+                        <div class="icon-header icon-4"></div>
+                    </div>
+                    <div class="box-icon-header">
+
+                        <div class="icon-header icon-5"></div>
+                    </div>
+                </div>
+                <div class="header-user">
+                    <div class="avatar-user"></div>
+                    <div class="name-user">Cao Thanh Lâm</div>
+                    <div class="icon-user">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Header -->
+
+    <!-- Navbar -->
+    <div class="m-navbar">
+
+        <a href="" class="m-item-navbar active">
+            <div class="logo-item item-2"></div>
+            <div class="name-item">Tiền mặt</div>
+        </a>
+        <div class="full-license">
+            <div class="license-icon"></div>
+            <div class="license-info"></div>
+        </div>
+    </div>
+    <!-- EndNavbar -->
+
+    <!-- Content -->
+    <div class="m-content">
+        <div class="m-content-header">
+            <ul class="items-header-content">
+                <li class="item-header-content active">Quy trình</li>
+                <li class="item-header-content">Thu, chi tiền</li>
+            </ul>
+        </div>
+        <div id="acitons-money" class="acitons-money-header">
+            <div class="actions-money-title">
+                <h1 class="text-actions-money-title">Thu chi tiền mặt</h1>
+            </div>
+            <div class="buttons-action-money-header">
+                <div class="button-guides">
+                    <div class="icon-button-guides"></div>
+                    <div class="name-guides">Hướng dẫn</div>
+                </div>
+                <div class="convenient-header">
+                    <div id="convenient" class="name-convenient">Tiện ích <span class="icon-convenient"></span></div>
+                    <a class="choice-content-right choice-convenient">Đồng bộ với AMIS hệ thống</a>
+                </div>
+                <div class="box-add-money">
+                    <div class="name-add-money">Thêm chi tiền</div>
+                    <div class="box-icon-add-money"><span class="icon-add-money"></span></div>
+                </div>
+            </div>
+        </div>
+        <div id="numbers-debts" class="items-number-debts">
+            <div class="item-number-debt debt1">
+                    <div class="number-icon-debt">
+                        <div class="number-debt">0,0</div>
+                        <div class="icon-filter-debt"></div>
+                    </div>
+                    <div class="text-debt">Nợ quá hạn</div>            
+            </div>
+            <div class="item-number-debt debt2">
+                <div class="number-icon-debt">
+                    <div class="number-debt">4,045,548,000</div>
+                    <div class="icon-filter-debt"></div>
+                </div>
+                <div class="text-debt">Tổng nợ phải thu quá hạn</div>
+            </div>
+            <div class="item-number-debt all-debts">
+                <div class="number-icon-debt">
+                    <div class="number-debt">8,000,000</div>
+                </div>
+                <div class="text-debt">Đã thanh toán 30 ngày gần đây</div>
+                <div class="box-icon-refresh-debts">
+                    <div class="icon-refresh-debts">           
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- tables-aciton-money -->
+        <div id="actionMoney" class="main-content">
+            <div class="box-icon-arrow-up-table">
+                <div class="icon-arrow-up-table">            
+                </div>
+            </div>
+            <div class="header-main-content">
+                <div id="peform-all" class="main-content-left">
+                    <div class="icon-check-all"></div>
+                    <div class="convenient-header">
+                        <div class="name-convenient">Thực hiện hàng loạt<span class="icon-convenient"></span></div>
+                    </div>
+                    <div id="convenient-filter" class="convenient-header convenient-header-2">
+                        <div class="name-convenient">Lọc<span class="icon-convenient"></span></div>
+                    </div>
+                </div>
+                <div class="main-content-right">
+                    <div id="search-employee" class="header-search">
+                        <input class="input-search" placeholder="Nhập từ khóa tìm kiếm">
+                        <div class="icon-search"></div>
+                    </div>
+                    <div class="icon-refresh"></div>
+                    <div class="icon-excel"></div>
+                    <div class="icon-setup"></div>
+                </div>
+            </div>
+            <!-- Table -->
+            <div class="m-grid-tbl">
+                <div class="m-grid-table">
+                    <table  class="m-table">
+                        <thead>
+                            <tr>
+                                <th class="text-align-center" style="width:3%" propname="Checkbox"><input type="checkbox"></th>
+                                <th class="text-align-left" style="width:9%" propname="EmployeeCode">Mã khách hàng</th>
+                                <th class="text-align-left" propname="EmployeeName" style="width:10%">Tên khách hàng</th>
+                                <th class="text-align-left" style="width:7%" propname="EmployeePosition">Địa chỉ</th>
+                                <th class="text-align-left" style="width:10%" propname="DepartmentName">Công nợ</th>
+                                <th class="text-align-left" style="width:9%" propname="TelephoneNumber">Mã số thuế</th>
+                                <th class="text-align-left" style="width:9%" propname="Email">Điện thoại</th>
+                                <th class="text-align-left" style="width:16%" propname="Email">Website</th>
+                                <th class="text-align-center" style="width:7%" propname="Salary" format="Money">Chức năng</th>
+                            </tr>
+                        </thead>
+                        <tbody class="tbody">
+
+                            <tr class="active">
+                                <td class="text-align-center"><input type="checkbox"></td>
+                                <td class="text-align-left">MF11686</td>
+                                <td class="text-align-left">Cao Thanh Lâm</td>
+                                <td class="text-align-left">Giám đốc</td>
+                                <td class="text-align-left">Bộ quốc phòng</td>
+                                <td class="text-align-left">00120000000</td>
+                                <td class="text-align-left">MBBank</td>
+                                <td class="text-align-left">Chi nhánh YASUO</td>
+                                <td class="text-align-left">
+                                    <div class="action-employee">
+                                        <div class="default-action">Sửa
+                                            <ul class="choice-action">
+                                                <li class="choice-action-item">Xóa</li>
+                                                <li class="choice-action-item">Nhân bản</li>
+                                                <li class="choice-action-item">Sử dụng</li>
+                                            </ul>
+                                        </div>
+                                        <div class="icon-action"></div>
+                                    </div>
+                                </td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+
+            </div>
+            <!--  Paging -->
+
+            <div id="pagingActionMoney" class="m-paging">
+                <div class="total-employees">Tổng số : <b>101</b> bản ghi</div>
+                <div class="m-paging-right">
+                    <div class="employee-in-tables">
+                        <p class="choice-current-number">20 bản ghi trên trang</p>
+                        <div class="box-icon-choice-number">
+                            <div class="icon-choice-number"></div>
+                        </div>
+                        <div class="choices-number-employee">
+                            <div class="choice-number-item">10 bản ghi trên trang</div>
+                            <div class="choice-number-item active">20 bản ghi trên trang</div>
+                            <div class="choice-number-item">50 bản ghi trên trang</div>
+                            <div class="choice-number-item">100 bản ghi trên trang</div>
+                        </div>
+
+                    </div>
+                    <div class="navbar-number">
+                        <div class="btn btn-prev incapability ">Trước </div>
+                        <div class="pages">
+                            <div class="number-page-item selected">1</div>
+                            <div class="number-page-item">2</div>
+                            <div class="number-page-item">...</div>
+                            <div class="number-page-item">5</div>
+                        </div>
+                        <div class=" btn btn-next">Sau</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End tables-action-money -->
+    <!-- EndContent -->
+</body>

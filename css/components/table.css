@@ -29,6 +29,7 @@ thead tr:first-child th {
   position: sticky;
   top: 0;
   z-index: 2;
+  border-bottom: 1px solid #ccc;
 }
 th:last-child {
   border-right: none;
@@ -78,26 +79,27 @@ th:last-child {
   font-weight: 300;
 }
 ul.choice-action {
-  width: 105px;
-  height: 90px;
+  width: 60px;
+  height: 24px;
   border: 1px solid #ccc;
   padding: 2px;
   position: absolute;
-  left: -30px;
-  top: 25px;
+  left: 10px;
+  top: 20px;
+  display: block;
+  background-color: #fff;
+  border-radius: 3px;
   display: none;
 }
 li.choice-action-item {
-  padding-left: 8px;
-  height: calc(84px / 3);
+  list-style-type: none;
+  text-align: center;
 }
-li:last-child {
-}
+
 li.choice-action-item:hover {
   color: rgb(39, 147, 39);
   background-color: #ccc;
 }
-
 tr.active {
   background-color: #f2f9ff;
 }
@@ -113,4 +115,89 @@ tr.active {
   font-size: 12px;
   font-weight: 700;
   padding: 2px 20px;
+}
+.main span.icon-table-td{
+  background: url('../../assets/img/Sprites.64af8f61.svg') no-repeat -370px -146px;
+	width: 20px;
+	height: 20px;
+  display: inline-block;
+  margin-right: 8px;
+}
+tr.main td{
+  font-weight: 700;
+  font-size: 14px;
+}
+tr.main td:first-child{
+  display:flex;
+  align-items: center;
+  justify-content: start;
+  height: 44.5px;
+  border: none;
+}
+tr.main td:first-child{
+  text-align:left;
+}
+tr td:first-child{
+  text-align:center;
+}
+
+
+/* tables aciton money */
+#actionMoney.main-content{
+  margin-right: 29px;
+  position: relative;
+}
+#actionMoney.main-content{
+  height: calc(100% - 235px);
+}
+.icon-setup{
+  background: url('../../assets/img/Sprites.88b1c3bd.svg') no-repeat -676px -30px;
+	width: 23px;
+	height: 24px;
+  margin-left: 10px;
+  opacity: 0.8;
+}
+.icon-excel{
+  background: url('../../assets/img/Sprites.88b1c3bd.svg') no-repeat -1265px -90px;
+	width: 23px;
+	height: 20px;
+  margin-left: 10px;
+  opacity: 0.7;
+}
+.icon-setup:hover, .icon-excel:hover{
+  opacity: 1;
+  cursor: pointer;
+}
+#actionMoney .icon-check-all{
+  background: url('../../assets/img/Sprites.88b1c3bd.svg') no-repeat -259px -147px;
+	width: 18px;
+	height: 18px;
+  margin-right: 20px;
+  margin-left: 10px;
+  position: relative;
+  bottom:-8px;
+}
+#actionMoney .main-content-left{
+  display: flex;
+  align-items: center;
+}
+.convenient-header.convenient-header-2{
+  min-width: 85px;
+}
+.box-icon-arrow-up-table{
+  width: 26px;
+  height: 26px;
+  background-color: #f2f5f8;
+  border:2px solid #e2e9f2;
+  position:absolute;
+  top: -10px;
+  right: -10px;
+  display: flex;
+}
+.icon-arrow-up-table{
+  background: url('../../assets/img/Sprites.88b1c3bd.svg') no-repeat -130px -364px;
+	width: 12px;
+	height: 7px;
+  margin:auto;
+  
 }

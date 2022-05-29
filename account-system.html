@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <div class="m-header">
+        <div class="m-header-left">
+            <div class="sidebar"></div>
+            <div class="logo"></div>
+        </div>
+        <div class="m-header-right">
+            <div class="content-header-left">
+                <div class="toggle-header"></div>
+                <div id="cbxCompany" class="m-combobox" mcombobox>
+                    <p class="placeholder"> CÔNG TY CỔ PHẦN MISA</p>
+                    <div class="icon-combobox">
+                    </div>
+                    <div class="m-choice-combobox">
+                        <div value="0" class="m-choice">
+                            <i class="fa-solid fa-check icon-active"></i>Nam
+                        </div>
+                        <div value="1" class="m-choice">
+                            <i class="fa-solid fa-check icon-active"></i>Nữ
+                        </div>
+                        <div value="2" class="m-choice">
+                            <i class="fa-solid fa-check icon-active"></i>Khác
+                        </div>
+                    </div>
+                </div>
+                <div class="status-header">
+                    <div class="dot-status">
+
+                    </div>
+                    <div class="name-status">
+                        DC-01
+                    </div>
+                </div>
+            </div>
+            <div class="content-header-right">
+                <div class="box-excel">
+                    <div class="doawload-excel">
+
+                    </div>
+                </div>
+                <div class="header-search">
+                    <input class="input-search" placeholder="Nhập từ khóa tìm kiếm"></input>
+                    <div class="icon-search"></div>
+                </div>
+                <div class="full-icon-header">
+                    <div class="box-icon-header green">
+                        <div class="icon-header icon-1"></div>
+                    </div>
+                    <div class="box-icon-header">
+                        <div class="icon-header icon-2"></div>
+                    </div>
+                    <div class="box-icon-header">
+
+                        <div class="icon-header icon-3"></div>
+                    </div>
+                    <div class="box-icon-header">
+
+                        <div class="icon-header icon-4"></div>
+                    </div>
+                    <div class="box-icon-header">
+
+                        <div class="icon-header icon-5"></div>
+                    </div>
+                </div>
+                <div class="header-user">
+                    <div class="avatar-user"></div>
+                    <div class="name-user">Cao Thanh Lâm</div>
+                    <div class="icon-user">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Header -->
+
+    <!-- Navbar -->
+    <div class="m-navbar">
+
+        <a href="" class="m-item-navbar active">
+            <div class="logo-item item-2"></div>
+            <div class="name-item">Tiền mặt</div>
+        </a>
+        <div class="full-license">
+            <div class="license-icon"></div>
+            <div class="license-info"></div>
+        </div>
+    </div>
+
+    <!-- Content -->
+    <div class="m-content">
+        <!-- header-content -->
+        <div class="header-content">
+            <div class="header-content-left">
+                <div class="title-header-content">HỆ THỐNG TÀI KHOẢN</div>
+                <div class="all-list">
+                    <span class="icon-all-list">
+
+          </span>
+                    <a href="#" class="name-all-list">Tất cả danh mục</a>
+                </div>
+            </div>
+            <div class="header-content-right">
+                <div class="add-employee">
+                    <div id="addAccount" class="box-add-employe">
+                        <div  class="name-add-employee">Thêm</div>
+                    </div>
+                    <div class="choice-content-right choice-add-employee">Nhập từ excel</div>
+                </div>
+            </div>
+        </div>
+        <!-- End header content-->
+        <!-- maincontent -->
+        <div class="main-content">
+            <div class="header-main-content">
+                <div class="main-content-right">
+                    <div id="searchAccounts" class="header-search">
+                        <input class="input-search" placeholder="Tìm theo số,tên tài khoản">
+                        <div class="icon-search"></div>
+                    </div>
+
+                </div>
+            </div>
+            <!-- Table -->
+            <div class="m-grid-tbl">
+                <div class="m-grid-table">
+                    <table id="tblAccountList" class="m-table">
+                        <thead>
+                            <tr>
+                                <th class="text-align-left" style="width:7%" propname="">Số tài khoản</th>
+                                <th class="text-align-left" propname="EmployeeName" style="width:20%">Tên tài khoản</th>
+                                <th class="text-align-left" style="width:5%" propname="">Tính chất</th>
+                                <th class="text-align-left" style="width:20%" propname="">Tên tiếng anh</th>
+                                <th class="text-align-left" style="width:8%" propname="">Diễn giải</th>
+                                <th class="text-align-left" style="width:8%" propname="">Trạng thái</th>
+                                <th class="text-align-center" style="width:6%" propname="" >Chức năng</th>
+                            </tr>
+                        </thead>
+                        <tbody class="tbody">
+                            <tr class="main">
+                                <td class=""> <span class="icon-table-td"></span>111</td>
+                                <td class="text-align-left">Cao Thanh Lâm</td>
+                                <td class="text-align-left">Dư nợ</td>
+                                <td class="text-align-left">Cash in hand</td>
+                                <td class="text-align-left">MBBank</td>
+                                <td class="text-align-left">Đang sử dụng</td>
+                                <td class="text-align-left">
+                                    <div class="action-employee">
+                                        <div class="default-action">Sửa
+                                            <ul class="choice-action">
+                                                <li class="choice-action-item">Xóa</li>
+                                            </ul>
+                                        </div>
+                                        <div class="icon-action"></div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr class="">
+                                <td class=""> <span class="icon-table-td"></span>11112</td>
+                                <td class="text-align-left">Cao Thanh Lâm</td>
+                                <td class="text-align-left">Dư nợ</td>
+                                <td class="text-align-left">Cash in hand</td>
+                                <td class="text-align-left">MBBank</td>
+                                <td class="text-align-left">Đang sử dụng</td>
+                                <td class="text-align-left">
+                                    <div class="action-employee">
+                                        <div class="default-action">Sửa
+                                            <ul class="choice-action">
+                                                <li class="choice-action-item">Xóa</li>
+                                            </ul>
+                                        </div>
+                                        <div class="icon-action"></div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr class="">
+                                <td class=""> <span class="icon-table-td"></span>11121</td>
+                                <td class="text-align-left">Cao Thanh Lâm</td>
+                                <td class="text-align-left">Dư nợ</td>
+                                <td class="text-align-left">Cash in hand</td>
+                                <td class="text-align-left">MBBank</td>
+                                <td class="text-align-left">Đang sử dụng</td>
+                                <td class="text-align-left">
+                                    <div class="action-employee">
+                                        <div class="default-action">Sửa
+                                            <ul class="choice-action">
+                                                <li class="choice-action-item">Xóa</li>
+                                            </ul>
+                                        </div>
+                                        <div class="icon-action"></div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr class="main">
+                                <td class=""> <span class="icon-table-td"></span>112</td>
+                                <td class="text-align-left">Cao Thanh Lâm</td>
+                                <td class="text-align-left">Dư nợ</td>
+                                <td class="text-align-left">Cash in hand</td>
+                                <td class="text-align-left">MBBank</td>
+                                <td class="text-align-left">Đang sử dụng</td>
+                                <td class="text-align-left">
+                                    <div class="action-employee">
+                                        <div class="default-action">Sửa
+                                            <ul class="choice-action">
+                                                <li class="choice-action-item">Xóa</li>
+                                            </ul>
+                                        </div>
+                                        <div class="icon-action"></div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr class="">
+                                <td class=""> <span class="icon-table-td"></span>11234</td>
+                                <td class="text-align-left">Cao Thanh Lâm</td>
+                                <td class="text-align-left">Dư nợ</td>
+                                <td class="text-align-left">Cash in hand</td>
+                                <td class="text-align-left">MBBank</td>
+                                <td class="text-align-left">Đang sử dụng</td>
+                                <td class="text-align-left">
+                                    <div class="action-employee">
+                                        <div class="default-action">Sửa
+                                            <ul class="choice-action">
+                                                <li class="choice-action-item">Xóa</li>
+                                            </ul>
+                                        </div>
+                                        <div class="icon-action"></div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr class="">
+                                <td class=""> <span class="icon-table-td"></span>11234</td>
+                                <td class="text-align-left">Cao Thanh Lâm</td>
+                                <td class="text-align-left">Dư nợ</td>
+                                <td class="text-align-left">Cash in hand</td>
+                                <td class="text-align-left">MBBank</td>
+                                <td class="text-align-left">Đang sử dụng</td>
+                                <td class="text-align-left">
+                                    <div class="action-employee">
+                                        <div class="default-action">Sửa
+                                            <ul class="choice-action">
+                                                <li class="choice-action-item">Xóa</li>
+                                            </ul>
+                                        </div>
+                                        <div class="icon-action"></div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr class="">
+                                <td class=""> <span class="icon-table-td"></span>11234</td>
+                                <td class="text-align-left">Cao Thanh Lâm</td>
+                                <td class="text-align-left">Dư nợ</td>
+                                <td class="text-align-left">Cash in hand</td>
+                                <td class="text-align-left">MBBank</td>
+                                <td class="text-align-left">Đang sử dụng</td>
+                                <td class="text-align-left">
+                                    <div class="action-employee">
+                                        <div class="default-action">Sửa
+                                            <ul class="choice-action">
+                                                <li class="choice-action-item">Xóa</li>
+                                            </ul>
+                                        </div>
+                                        <div class="icon-action"></div>
+                                    </div>
+                                </td>
+                            </tr>
+                        
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <!-- End maincontent -->
+    </div>
+    <!-- EndContent -->
+</body>

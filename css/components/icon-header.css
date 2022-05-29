@@ -65,21 +65,7 @@
   height: 24px;
   position: relative;
 }
-.icon-4::after {
-  box-sizing: border-box;
-  content: "Mới";
-  width: 30px;
-  height: 18px;
-  background-color: #ff7f2c;
-  border-radius: 30px;
-  font-size: 10px;
-  padding: 2px 6px;
-  color: #fff;
-  position: absolute;
-  top: -8px;
-  right: -21px;
-  z-index: 10;
-}
+
 .icon-5 {
   background: url("../../assets/img/Sprites.64af8f61.svg") no-repeat -788px -30px;
   width: 24px;

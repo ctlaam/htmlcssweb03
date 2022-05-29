@@ -1,0 +1,179 @@
+div#acitons-money {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 71px;
+}
+.buttons-action-money-header {
+  display: flex;
+  width: 485px;
+  justify-content: center;
+  margin-left: 20px;
+}
+.button-guides {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 98px;
+  position: relative;
+  top: 2px;
+  margin-left: 15px;
+  margin-right: 10px;
+}
+.icon-button-guides {
+  background: url("../../assets/img/Sprites.64af8f61.svg") no-repeat -984px -145px;
+  width: 23px;
+  height: 22px;
+}
+.name-guides {
+  color: #0075c0;
+}
+.name-guides:hover {
+  text-decoration: underline;
+}
+.actions-money-title {
+  width: 1192px;
+}
+.text-actions-money-title {
+  font-size: 24px;
+  padding: 0 0 0 10px;
+}
+
+.box-add-money {
+  display: flex;
+  position: relative;
+}
+.box-add-money::before {
+  content: " ";
+  width: 1px;
+  height: 20px;
+  background-color: #fff;
+  position: absolute;
+  top: 9px;
+  left: 125px;
+}
+.name-add-money {
+  min-width: 125px;
+  height: 36px;
+  background-color: #2ca01c;
+  border: 1px solid #2ca01c;
+  border-radius: 30px 0 0 30px;
+  padding: 8px 16px 8px 20px;
+  text-align: center;
+  color: #fff;
+  font-weight: 600;
+}
+.box-icon-add-money {
+  width: 46px;
+  height: 36px;
+  background-color: #2ca01c;
+  border-radius: 0 30px 30px 0;
+  border: 1px solid #2ca01c;
+  padding: 8px 10px;
+}
+.name-add-money:hover {
+  background-color: #35bf22;
+  border-radius: 30px 0 0 30px;
+  border-color: #35bf22;
+}
+.box-icon-add-money:hover {
+  background-color: #35bf22;
+  border-radius: 0px 30px 30px 0px;
+  border-color: #35bf22;
+}
+.icon-add-money {
+  background: url("../../assets/img/Sprites.88b1c3bd.svg") no-repeat -848px -359px;
+  width: 16px;
+  height: 16px;
+  display: block;
+  position: relative;
+  left: 2px;
+}
+
+/* imtes debt */
+.items-number-debts {
+  display: flex;
+  width: 1700px;
+  height: 72px;
+  padding-right: 10px;
+  margin-top: 8px;
+}
+.item-number-debt {
+  width: 555px;
+  height: 64px;
+  padding: 4px 10px 8px;
+  margin-right: 10px;
+  position: relative;
+}
+.debt1:hover,
+.debt2:hover {
+  position: relative;
+  top: -10px;
+}
+.debt1:hover::after,
+.debt2:hover::after {
+  content: " ";
+  width: 555px;
+  height: 6px;
+  background-color: #707070;
+  opacity: 0.6;
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+}
+.text-debt {
+  font-size: 14px;
+  color: #fff;
+}
+
+.debt1:hover,
+.debt2:hover .padding-item-debt {
+  display: block;
+}
+
+.item-number-debt.debt1 {
+  background-color: #ff7f2c;
+}
+.item-number-debt.debt2 {
+  background-color: #b8bcc3;
+}
+.item-number-debt.all-debts {
+  background-color: #74cb2f;
+}
+.number-icon-debt {
+  display: flex;
+  width: 540px;
+  height: 33px;
+  justify-content: space-between;
+  align-items: center;
+}
+.number-debt {
+  font-size: 24px;
+  color: #fff;
+}
+.icon-filter-debt {
+  background: url("../../assets/img/Sprites.88b1c3bd.svg") no-repeat -1817px -208px;
+  width: 12px;
+  height: 12px;
+}
+.box-icon-refresh-debts {
+  position: absolute;
+  width: 26px;
+  height: 26px;
+  right: -14px;
+  top: -12px;
+  background: #f2f5f8;
+  display: flex;
+  border: 2px solid #e2e9f2;
+}
+.box-icon-refresh-debts:hover {
+  background: #dee2e9;
+
+}
+.icon-refresh-debts {
+    margin: auto;
+  background: url("../../assets/img/Sprites.88b1c3bd.svg") no-repeat -1931px -799px;
+  width: 16px;
+  height: 17px;
+}
