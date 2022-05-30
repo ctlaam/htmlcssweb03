@@ -1,206 +1,351 @@
 #dialogAccountForm {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(0, 0, 0, 0.6);
-    z-index: 99;
-    font-size: 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 99;
+  font-size: 20px;
+  display: none;
 }
 
 .form-account {
-    position: relative;
-    width: 47.5%;
-    height: 100%;
+  position: relative;
+  width: 47.5%;
+  height: 100%;
+  background-color: #fff;
+  float: right;
+  padding: 0 16px;
+}
+.form-account::before {
+    content: "";
+    width: 100%;
+    height: 4px;
+    background-color: #f4f5f8;
+    position: absolute;
+    bottom: 80px;
+    left: 0;
+}
+.expend-form{
+    display: flex;
+    width: 12px;
+    height: 50px;
     background-color: #fff;
-    float: right;
-    padding:0 16px;
+    border: 1px solid #d4d7dc;
+    border-radius: 8px;
+    position: absolute;
+    top: calc(50% - 60px);
+    left:-5px
+}
+.expend-form:hover{
+    cursor: pointer;
+    background-color: #f4f5f8;
+}
+.icon-expend-form{
+    background: url('../../assets/img/Sprites.88b1c3bd.svg') no-repeat -36px -361px;
+	width: 8px;
+	height: 14px;
+    margin:auto;
 
-
-    
 }
 .main.form-account {
-    width: 99%;
+  width: 99%;
 }
-.header-form-account{
-    display:flex;
-    height: 69px;
-    width: 100%;
-    align-items: center;
-    justify-content:space-between;
-    margin-bottom: 20px;
+.header-form-account {
+  display: flex;
+  height: 69px;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
 }
-.title-header-form{
-    font-size: 24px;
-    font-weight: 600;
+.title-header-form {
+  font-size: 24px;
+  font-weight: 600;
 }
-.icons-header-form{
-    display: flex;
-    align-items: center;
-    justify-content:center;
-    width: 78px;
-    font-size: 30px;
+.icons-header-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 78px;
+  font-size: 30px;
 }
-.icon-query-form-account{
-    background: url('../../assets/img/Sprites.88b1c3bd.svg') no-repeat -89px -145px;
-	width: 22px;
-	height: 22px;
-    margin-right: 1em;
+.icon-query-form-account {
+  background: url("../../assets/img/Sprites.88b1c3bd.svg") no-repeat -89px -145px;
+  width: 22px;
+  height: 22px;
+  margin-right: 1em;
 }
-.icon-close-form-account{
-    background: url('../../assets/img/Sprites.88b1c3bd.svg') no-repeat -147px -147px;
-	width: 18px;
-	height: 18px;
+.icon-close-form-account {
+  background: url("../../assets/img/Sprites.88b1c3bd.svg") no-repeat -147px -147px;
+  width: 18px;
+  height: 18px;
 }
-.box-item-form-account{
-    width: 100%;
-    height: 64px;
-    margin-bottom:12px;
-    display:flex;
-    align-items: center;
-    justify-content:start;
+.box-item-form-account {
+  width: 100%;
+  height: 64px;
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
 }
-.input-form-account{
-    background-color: #fff;
-    border-radius: 2px;
-    border: 1px solid #babec5;
-    outline: none;
-    padding: 0 12px 0 10px;
-    color: #111111;
+.input-form-account {
+  background-color: #fff;
+  border-radius: 2px;
+  border: 1px solid #babec5;
+  outline: none;
+  padding: 0 12px 0 10px;
+  color: #111111;
 }
-.required-form-account{
-    position: relative;
-    top:3px;
+.required-form-account {
+  position: relative;
+  top: 3px;
 }
-.name-input-accout{
-    font-size:12px;
-    margin-bottom:5px;
-    font-weight: 700;
+.name-input-accout {
+  font-size: 12px;
+  margin-bottom: 5px;
+  font-weight: 700;
 }
-.input-number-accout .input-form-account{
-    width: 178px;
-    height: 32px;
+.input-number-accout .input-form-account {
+  width: 178px;
+  height: 32px;
 }
-.input-name-accout .input-form-account{
-    width: 368px;
-    height: 32px;
+.input-name-accout .input-form-account {
+  width: 368px;
+  height: 32px;
 }
-.input-name-accout .input-form-account:last-child{
-    width: 380px;
+.input-name-accout .input-form-account:last-child {
+  width: 380px;
 }
-.input-name-accout:first-child{
-    position: relative;
-    top:-1px;
+.input-name-accout:first-child {
+  position: relative;
+  top: -1px;
 }
-.input-combobox-accout:first-child{
-    position: relative;
-    top: 1px;
+.input-combobox-accout:first-child {
+  position: relative;
+  top: 1px;
 }
-.input-form-accout{
-    margin-right: 12px;
-
+.input-form-accout {
+  margin-right: 12px;
 }
-.form-combobox-accoumt{
-    display: flex;
-    position: relative;
-    width: 175px;
-
+.form-combobox-accoumt {
+  display: flex;
+  position: relative;
+  width: 175px;
 }
-.form-combobox-accoumt .box-icon-choice-number{
-    position:absolute;
-    right: 0px;;
+.form-combobox-accoumt .box-icon-choice-number {
+  position: absolute;
+  right: 0px;
 }
-.form-combobox-accoumt .box-icon-choice-number:hover{
-    border-style: solid;
-    border-color: #babec5 ;
-    border-width: 1px 1px 1px 0;
+.form-combobox-accoumt .box-icon-choice-number:hover {
+  border-style: solid;
+  border-color: #babec5;
+  border-width: 1px 1px 1px 0;
 }
-.choice-current-account{
-    width: 175px;
-    height: 30px;
-    padding: 0 0 0 10px;
-    border:1px solid #babec5;
-    border-radius: 2px;
-    outline: none;
+.choice-current-account {
+  width: 175px;
+  height: 30px;
+  padding: 0 0 0 10px;
+  border: 1px solid #babec5;
+  border-radius: 2px;
+  outline: none;
 }
-.label-account{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    font-weight: 700;
-
+.label-account {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 700;
 }
-.label-code-account{
-    padding: 0 10px;
-    width: 112px;
-    background-color:#f4f5f8;
-    height: 32px;
-    line-height:32px;
-    font-size: 14px;
-
+.label-code-account {
+  padding: 0 10px;
+  width: 112px;
+  background-color: #f4f5f8;
+  height: 32px;
+  line-height: 32px;
+  font-size: 14px;
 }
-.label-name-account{
-    width: 283px;
-    padding: 0 10px;
-    background-color:#f4f5f8;
-    height: 32px;
-    line-height:32px;
-    font-size: 14px;
+.label-name-account {
+  width: 283px;
+  padding: 0 10px;
+  background-color: #f4f5f8;
+  height: 32px;
+  line-height: 32px;
+  font-size: 14px;
 }
-.choices-account{
-    position:absolute;
-    top:32px;
-    border:1px solid #babec5;
-    width: 380px;
-    display:none;
-
+.choices-account {
+  position: absolute;
+  top: 32px;
+  border: 1px solid #babec5;
+  width: 380px;
+  display: none;
 }
-.choice-account-item-combobox{
-    display: flex;
-    align-items: center;
+.choice-account-item-combobox {
+  display: flex;
+  align-items: center;
 }
-.choice-account-item-combobox:hover{
-    background-color:#e5e5e5
-    
+.choice-account-item-combobox:hover {
+  background-color: #e5e5e5;
 }
 .choice-account-item-combobox:hover .choice-code-account,
-.choice-account-item-combobox:hover .choice-name-account{
-    cursor: pointer;
-    color: #35bf22;
+.choice-account-item-combobox:hover .choice-name-account {
+  cursor: pointer;
+  color: #35bf22;
 }
-.choice-code-account{
-    width: 100px;
-    padding:0 10px;
-    height: 32px;
-    line-height:32px;
-    text-align: center;
-    
+.choice-code-account {
+  width: 100px;
+  padding: 0 10px;
+  height: 32px;
+  line-height: 32px;
+  text-align: center;
 }
-.choice-name-account{
-    width: 280px;
-    padding:0 10px;
-    height: 32px;
-    line-height:32px;
+.choice-name-account {
+  width: 280px;
+  padding: 0 10px;
+  height: 32px;
+  line-height: 32px;
 }
 
 div#natureComboboxAccount {
-    width: 175px;
+  width: 175px;
 }
 #natureComboboxAccount .choices-number-employee {
-    width: 175px;
+  width: 175px;
 }
-#natureComboboxAccount .choice-number-item{
-    width:172px;
+#natureComboboxAccount .choice-number-item {
+  width: 173px;
 }
-#natureComboboxAccount .choices-number-employee{
-    top: 32px;
-    display:none;
+#natureComboboxAccount .choices-number-employee {
+  top: 32px;
+  display: none;
 }
-.input-reason-accout .input-form-account{
-    width: 770px;
-    height: 55px;
+.input-reason-accout .input-form-account {
+  width: 770px;
+  height: 55px;
 }
 textarea.input-form-account {
-    padding: 9px;
+  padding: 9px;
+}
+.input-form-accout.input-checkbox-accout {
+  display: flex;
+  align-items: center;
+  height: 18px;
+}
+.input-form-accout input[type="checkbox"] {
+  margin-right: 10px;
+  margin-left: 4px;
+}
+.box-item-form-account.box-checkbox {
+  height: 18px;
+  margin-top: 20px;
+}
+
+/* follow details */
+.box-header-follow-details {
+  width: 100%;
+  height: 42px;
+  padding: 10px 10px 10px 2px;
+  display: flex;
+  align-items: center;
+  margin-bottom:15px;
+}
+.title-header-follow-details {
+  font-size: 18px;
+}
+.icon-header-follow-details {
+  background: url("../../assets/img/Sprites.88b1c3bd.svg") no-repeat -371px -364px;
+  width: 10px;
+  height: 8px;
+  padding-right: 20px;
+}
+.box-header-follow-details:hover .title-header-follow-details {
+  color: #2ca01c;
+}
+
+.columns-follow-details{
+    box-sizing:content-box;
+    display: flex;
+    height: 280px;
+    width: 100%;
+    padding:0 10px 10px;
+    margin-top: 10px;
+}
+.first-column-follow-details{
+    width: 50%;
+    height: 100%;
+}
+.second-column-follow-details{
+    width: 50%;
+    height: 100%;
+}
+
+.footer-details{
+    width: 100%;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+.footer-details .btn{
+    min-width: 60px;
+    height: 34px;
+    border: 1px solid #8d9096;
+    border-radius: 3px;
+    outline: none;
+    padding: 6px 16px;
+    background-color: #fff;
+    cursor: pointer;
+    font-weight: 600;
+}
+.footer-details .btn:hover {
+    background-color: #d2d3d6;
+}
+.btn.btn-save-add {
+    background-color: #2ca01c;
+    color: #fff;
+    border-color: #fff;
+    margin-left: 5px;
+}
+.btn.btn-save-add:hover, .btn.btn-save-add:focus {
+    background-color: #35bf22;
+    color: #fff;
+    border-color: #fff;
+}
+.item-column-details{
+    display: flex;
+    height:32px;
+    align-items: center;
+    justify-content: start;
+    margin-left: 10px;
+    position: relative;
+    margin-bottom: 18px;
+}
+
+.name-item-column-details{
+    margin-left: 10px;
+    margin-right: 64px;
+}
+
+#columns-details .choice-current-number {
+    width: 125px;
+    height: 30px;
+    padding: 0 0 0 10px;
+    line-height: 30px;
+}
+#columns-details div.employee-in-tables {
+    width: 155px;
+    background-color: #eff0f2;
+}
+#columns-details .employee-in-tables .choices-number-employee {
+    width: 155px;
+    top: 33px;
+    display: none;
+}
+#columns-details .employee-in-tables .choice-number-item {
+    width: 153px;
+}
+#columns-details .employee-in-tables {
+    position: absolute;
+    right: 77px;
 }

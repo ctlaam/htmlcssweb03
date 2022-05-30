@@ -6,11 +6,13 @@
 @import url("./components/table.css");
 @import url("./components/icon-header.css");
 @import url("./components/combobox.css");
+@import url("./components/input.css");
 @import url("./components/item-navbar.css");
 @import url("./components/services-reports.css");
 @import url("./components/account-system.css");
 @import url("./components/actions-money.css");
 @import url("./components/dialog-form-account.css");
+@import url("./components/dialog-form-money.css");
 @import url("./layout/navbar.css");
 @import url("./layout/header.css");
 @import url("./layout/content.css");
