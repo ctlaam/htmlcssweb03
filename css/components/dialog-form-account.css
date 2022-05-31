@@ -7,7 +7,6 @@
   background-color: rgba(0, 0, 0, 0.6);
   z-index: 99;
   font-size: 20px;
-  display: none;
 }
 
 .form-account {
@@ -24,7 +23,7 @@
     height: 4px;
     background-color: #f4f5f8;
     position: absolute;
-    bottom: 80px;
+    bottom: 9%;
     left: 0;
 }
 .expend-form{
@@ -280,12 +279,14 @@ textarea.input-form-account {
 }
 
 .footer-details{
-    width: 100%;
-    height: 56px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    position: relative;
+  width: 95%;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 1.5%;
+  left: 2%;
 }
 .footer-details .btn{
     min-width: 60px;
@@ -349,3 +350,4 @@ textarea.input-form-account {
     position: absolute;
     right: 77px;
 }
+

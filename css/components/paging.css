@@ -68,7 +68,7 @@
     padding: 0 0 0 10px;
     line-height: 30px;
 }
-.box-icon-choice-number{
+.box-icon-add-item,.box-icon-choice-number{
     width: 32px;
     height: 30px;
     align-items: center;
@@ -76,7 +76,7 @@
     justify-content: center;
     cursor: pointer;
 }
-.box-icon-choice-number:hover{
+.box-icon-add-item:hover,.box-icon-choice-number:hover{
     background-color: #e0e0e0;
 }
 .number-page-item{
