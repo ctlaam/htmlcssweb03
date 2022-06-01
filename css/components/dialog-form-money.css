@@ -1,172 +1,266 @@
 .form-money {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  z-index: 99;
-  background-color: #eff0f2;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 99;
+    background-color: #eff0f2;
 }
 
 .header-form-money {
-  height: 10%;
-  width: 100vw;
-  padding: 16px 16px 20px;
+    height: 10%;
+    width: 100vw;
+    padding: 16px 16px 20px;
 }
 
 .main-form-money {
-  width: 100%;
-  height: 83%;
-  background-color: pink;
+    width: 100%;
+    height: 83%;
+    background-color: pink;
 }
 
 .first-main-form-money {
-  width: 100%;
-  height: 50%;
-  background-color: #eff0f2;
-  padding: 8px 24px 20px;
+    width: 100%;
+    height: 50%;
+    background-color: #eff0f2;
+    padding: 8px 24px 20px;
 }
 
 .second-main-form-money {
-  width: 100%;
-  height: 50%;
-  background-color: yellow;
-  padding: 0 0 12px;
+    width: 100%;
+    height: 50%;
+    background-color: yellow;
+    padding: 0 0 12px;
 }
 
 .footer-form-money {
-  width: 100%;
-  height: 70%;
-  background-color: green;
-  padding: 0 16px;
+    width: 100%;
+    height: 7%;
+    background-color: black;
+    padding: 0 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 #types-of-vouchers .choices-number-employee {
-  width: 348px;
-  display: block;
-  position: absolute;
-  padding: 2px 0;
-  border: 1px solid #ccc;
-  top: 35px;
-  background-color: #fff;
-  display: none;
+    width: 348px;
+    display: block;
+    position: absolute;
+    padding: 2px 0;
+    border: 1px solid #ccc;
+    top: 35px;
+    background-color: #fff;
+    display: none;
 }
 
 #types-of-vouchers .choice-current-number {
-  width: 312px;
+    width: 312px;
 }
 
 #types-of-vouchers .choice-number-item {
-  width: 346px;
+    width: 346px;
 }
 
 .header-left-form-money {
-  height: 56px;
+    height: 56px;
 }
 
 .header-right-form-money {
-  height: 56px;
+    height: 56px;
 }
 
 .icon-timer-header-form {
-  background: url("../../assets/img/Sprites.5606db58.svg") no-repeat -648px -144px;
-  width: 24px;
-  height: 23px;
+    background: url("../../assets/img/Sprites.5606db58.svg") no-repeat -648px -144px;
+    width: 24px;
+    height: 23px;
 }
 
 .header-form-money {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .header-left-form-money {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .title-header-form-money {
-  font-size: 24px;
-  font-weight: 700;
-  padding-left: 12px;
-  padding-right: 24px;
+    font-size: 24px;
+    font-weight: 700;
+    padding-left: 12px;
+    padding-right: 24px;
 }
 
 .header-right-form-money {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .icon-guides-header-form {
-  background: url('../../assets/img/Sprites.5606db58.svg') no-repeat -984px -144px;
-  width: 24px;
-  height: 24px;
+    background: url('../../assets/img/Sprites.5606db58.svg') no-repeat -984px -144px;
+    width: 24px;
+    height: 24px;
 }
 
 .icon-setup-header-form {
-  background: url('../../assets/img/Sprites.5606db58.svg') no-repeat -32px -144px;
-  width: 24px;
-  height: 24px;
-  margin: 0 8px;
+    background: url('../../assets/img/Sprites.5606db58.svg') no-repeat -32px -144px;
+    width: 24px;
+    height: 24px;
+    margin: 0 8px;
 }
 
 .icon-query-header-form {
-  background: url('../../assets/img/Sprites.5606db58.svg') no-repeat -89px -144px;
-  width: 24px;
-  margin: 0 8px;
-  height: 24px;
+    background: url('../../assets/img/Sprites.5606db58.svg') no-repeat -89px -144px;
+    width: 24px;
+    margin: 0 8px;
+    height: 24px;
 }
 
 .icon-close-header-form {
-  background: url('../../assets/img/Sprites.5606db58.svg') no-repeat -144px -144px;
-  width: 24px;
-  margin: 0 8px;
-  height: 24px;
+    background: url('../../assets/img/Sprites.5606db58.svg') no-repeat -144px -144px;
+    width: 24px;
+    margin: 0 8px;
+    height: 24px;
 }
 
 .column1-first-main {
-  width: 620px;
-  height: 100%;
-  background-color: pink;
+    width: 620px;
+    height: 100%;
+    background-color: pink;
 }
 
 .item1.item-combobox-row {
-  width: 245px;
-  height: 52px;
-  margin-right: 12px;
-  position: relative;
-
+    width: 245px;
+    height: 52px;
+    margin-right: 12px;
+    position: relative;
 }
 
 .name-item-row {
-  font-weight: 700;
-  font-size: 12px;
-  padding: 0 0 4px;
+    font-weight: 700;
+    font-size: 12px;
+    padding: 0 0 4px;
 }
 
 input.item-current-item-row {
-  width: 245px;
-  height: 32px;
-  outline: none;
-  border: 1px solid #babec5;
+    width: 245px;
+    height: 32px;
+    outline: none;
+    border: 1px solid #babec5;
 }
 
 .item-combobox-row .box-icon-choice-number {
-  position: absolute;
-  top: 21px;
-  right: 1px;
+    position: absolute;
+    top: 21px;
+    right: 1px;
 }
 
-
-.box-icon-add-item{
-  position: absolute;
-  top: 21px;
-  right: 33px;
+.box-icon-add-item {
+    position: absolute;
+    top: 21px;
+    right: 33px;
 }
+
 .icon-add-item {
-  background: url('../../assets/img/Sprites.5606db58.svg') no-repeat -34px -314px;
-  width: 12px;
-  height: 12px;
+    background: url('../../assets/img/Sprites.5606db58.svg') no-repeat -34px -314px;
+    width: 12px;
+    height: 12px;
+}
+
+
+/* footeer-form-money */
+
+.footer-form-money .btn {
+    min-width: 60px;
+    height: 34px;
+    border: 1px solid #6b6c72;
+    border-radius: 3px;
+    outline: none;
+    padding: 6px 16px;
+    background-color: transparent;
+    cursor: pointer;
+    font-weight: 600;
+    color: #fff;
+}
+
+.footer-form-money .btn.btn-current {
+    background-color: #2ca01c;
+    color: #fff;
+    margin-left: 5px;
+    border: none;
+    position: relative;
+    border-radius: 3px 0 0 3px;
+}
+
+.box-choices-current {
+    position: absolute;
+    top: -62px;
+    right: -32px;
+    padding: 2px 1px;
+    border-radius: 2px;
+    border: 1px solid #babec5;
+    background-color: #fff;
+}
+
+.box-choices-current .choice-current {
+    width: 100px;
+    height: 28px;
+    padding: 5px 10px;
+    background-color: #fff;
+    font-weight: 400;
+}
+
+.box-choices-current .choice-current:hover {
+    color: #2ca01c;
+}
+
+.footer-form-money .btn.btn-current:hover {
+    background-color: #35bf22;
+}
+
+.footer-form-money .btn.btn-current::before {
+    content: "";
+    width: 1px;
+    height: 22px;
+    background-color: #fff;
+    position: absolute;
+    right: 1px;
+    top: 7px;
+}
+
+.footer-form-money .footer-right {
+    display: flex;
+    position: relative;
+}
+
+.box-icon-btn-current {
+    background-color: #2ca01c;
+    width: 32px;
+    height: 34px;
+}
+
+.box-icon-btn-current:hover {
+    background-color: #35bf22;
+}
+
+.box-btn-current {
+    display: flex;
+}
+
+.box-icon-btn-current {
+    border-radius: 0 3px 3px 0;
+    display: flex;
+}
+
+.icon-btn-current {
+    background: url('../../assets/img/Sprites.5606db58.svg') no-repeat -852px -365px;
+    width: 8px;
+    height: 5px;
+    margin: auto;
 }
